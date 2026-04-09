@@ -2431,6 +2431,7 @@ PRODUCT_PACKAGES += \
     libbase64 \
     libbatching \
     libbatterylistener \
+    libbluetooth_audio_session_aidl_prebuilt \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
