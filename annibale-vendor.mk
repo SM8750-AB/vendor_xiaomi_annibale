@@ -1408,8 +1408,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/annibale/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/xiaomi/annibale/proprietary/odm/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc \
-    vendor/xiaomi/annibale/proprietary/odm/etc/init/android.hardware.weaver-service.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.weaver-service.nxp.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/dvs-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/dvs-aidl-service.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/init.boled.lightsensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.boled.lightsensor.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
@@ -1425,7 +1423,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/odm/etc/mdss_dsi_p11_42_02_0b_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p11_42_02_0b_dsc_cmd_mi.xml \
     vendor/xiaomi/annibale/proprietary/odm/etc/mdss_dsi_p11_42_0d_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p11_42_0d_0a_dsc_cmd_mi.xml \
     vendor/xiaomi/annibale/proprietary/odm/etc/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd_mi.xml \
-    vendor/xiaomi/annibale/proprietary/odm/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint.nxp.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint.nxp.xml \
     vendor/xiaomi/annibale/proprietary/odm/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/chre_dynamic_sensors.json \
     vendor/xiaomi/annibale/proprietary/odm/etc/sensors/config/gt978x.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/gt978x.json \
     vendor/xiaomi/annibale/proprietary/odm/etc/sensors/config/json.lst:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/json.lst \
@@ -2292,7 +2289,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     android.hardware.common-V2-ndk_platform \
-    android.hardware.security.keymint-V3-ndk_prebuilt \
     android.media.audio.common.types-V6-ndk \
     btaudio_offload_if \
     com.qualcomm.qti.dpm.api@1.0 \
@@ -2466,7 +2462,6 @@ PRODUCT_PACKAGES += \
     libcodecclientmanager \
     libconfigdb \
     libcpion \
-    libcppbor_annibale \
     libcustomva_intf \
     libcv_common \
     libdapparamstorage \
@@ -3482,7 +3477,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.immunesystem.hook.mivi \
     com.xiaomi.immunesystem.hook.mtkhal \
     com.xiaomi.plugin.ecdengine \
-    ese_weaver \
     camera.qcom.sm8750 \
     camera.qcom \
     com.qti.chi.offline \
@@ -3642,12 +3636,7 @@ PRODUCT_PACKAGES += \
     libipebpsstriping480 \
     libiqdbgmgr \
     libisphwsetting \
-    libjc_keymint-nxp \
-    libjc_keymint_transport_nxp \
     libjpege \
-    libkeymint_empty-nxp \
-    libkeymint_empty-thales \
-    libkeymint_transport_empty-nxp \
     libmctfengine_stub \
     libmetadataHelper \
     libmfGhostDetection \
@@ -3755,8 +3744,6 @@ PRODUCT_PACKAGES += \
     libvideoml \
     libvideomode \
     libwa_widelens_undistort \
-    libweaver_empty-nxp \
-    libweaver_empty-thales \
     libwindns \
     libwvkeybox \
     libxmi_slow_motion_mein \
@@ -3910,9 +3897,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccsyshal_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
     android.hardware.gnss-aidl-service-qti.xml \
-    android.hardware.security.keymint-service.strongbox.xml \
-    android.hardware.security.sharedsecret-service.strongbox.xml \
-    android.hardware.weaver-service.nxp.xml \
     dvs-aidl-service.xml \
     fod-aidl.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
@@ -4059,8 +4043,6 @@ PRODUCT_PACKAGES += \
     qccsyshal_aidl-service \
     wfdservice64 \
     android.hardware.gnss-aidl-service-qti \
-    android.hardware.security.keymint-service.strongbox-nxp \
-    android.hardware.weaver-service.nxp-qti \
     dvs-aidl-service \
     misensor_camera \
     vendor.qti.camera.provider-service_64 \
